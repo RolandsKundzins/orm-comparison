@@ -1,0 +1,1 @@
+ALTER TABLE `post` MODIFY COLUMN `user_id` int NOT NULL;

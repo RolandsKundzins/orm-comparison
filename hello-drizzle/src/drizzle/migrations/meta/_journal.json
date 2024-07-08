@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1719641722502,
+      "tag": "0000_sturdy_blockbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1719834736518,
+      "tag": "0001_youthful_mole_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1719835608787,
+      "tag": "0002_colorful_steve_rogers",
+      "breakpoints": true
+    }
+  ]
+}

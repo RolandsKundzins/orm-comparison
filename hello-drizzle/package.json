@@ -1,0 +1,27 @@
+{
+  "name": "hello-drizzle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/main.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/drizzle/migrate",
+    "drizzle:studio": "npx drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "drizzle-kit": "^0.22.7",
+    "tsx": "^4.15.9",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.31.2",
+    "mysql2": "^3.10.1"
+  }
+}
